@@ -1,0 +1,40 @@
+# C++ / CMake
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.obj
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated data and logs
+data/generated/
+experiments/results/
+*.log
+
+# Secrets
+.env
+.env.*
+!.env.example
